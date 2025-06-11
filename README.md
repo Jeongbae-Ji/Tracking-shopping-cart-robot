@@ -1,6 +1,6 @@
 # Smart Shopping Cart Robot
 
-This project is a ROS 2-based intelligent shopping cart robot that combines indoor navigation and object detection to assist in smart logistics scenarios, such as autonomous shopping or item transport.
+This project is a ROS 2-based user-tracking shopping cart robot that uses YOLO tracking to follow a specific target, even when the object temporarily leaves the camera view. When the object reappears among similar objects, the robot is able to recognize and continue following the originally tracked target.
 
 ## Features
 
