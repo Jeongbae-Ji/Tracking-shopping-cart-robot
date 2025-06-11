@@ -1,0 +1,50 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jjb/Myprojects/smart-shopping-cart-robot-main']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jjb/Myprojects/smart-shopping-cart-robot-main'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71e142896f20>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x71e14292b8b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x71e14292b8b0>>)
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.094s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jjb/Myprojects/smart-shopping-cart-robot-main'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/log) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/log) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/log) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jjb/Myprojects/smart-shopping-cart-robot-main/src/yollllllo' with type 'ros.ament_python' and name 'yollllllo'
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
